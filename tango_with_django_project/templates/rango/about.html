@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+<head>
+    <title>About Rango</title>
+</head>
+
+<body>
+    <h1>Rango says...</h1>
+    <div>
+        ...here is the about page.
+    </div>
+    <a href='/rango/'>Home</a><br>
+    <img src='{{ MEDIA_URL }}cat.png' alt='cat' />
+    <br>
+    <h4>This beautiful page was laboriously put together by the very attractive Ian Pollack.</h4>
+    <img src='{% static "images/rango.jpg" %}'>
+</body>
+
+</html>

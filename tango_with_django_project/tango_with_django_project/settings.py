@@ -131,6 +131,6 @@ MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
 
-print(__file__)
-print(os.path.dirname(__file__))
-print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# print(__file__)
+# print(os.path.dirname(__file__))
+# print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

@@ -10,6 +10,8 @@
                 - How to Tango with Django!
             {% endblock %}
         </title>
+        <link rel='stylesheet' href='{% static "css/base.css" %}' />
+        <script src='{% static "js/jquery.js" %}'></script>
     </head>
     <body>
         <div>
@@ -20,9 +22,9 @@
         <hr />
         <div>
             <ul>
-                <li><a href="{% url 'add_category' %}"></a>Add New Category</li>
-                <li><a href="{% url 'about' %}"></a>About</li>
-                <li><a href="{% url 'index' %}"></a>Index</li>
+                <li><a href="{% url 'add_category' %}">Add New Category</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'index' %}">Index</a></li>
             </ul>
         </div>
     </body>
